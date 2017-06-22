@@ -8,18 +8,26 @@
 module.exports = {
 
   attributes: {
+    id: {
+      type: 'integer'
+    }, 
+
   	name: {
   		type: 'string'
   	},
+
   	email: {
   		type: 'string'
   	},
+
   	address: {
   		type: 'string'
   	},
+
   	phoneNumber: {
   		type: 'string'
   	},
+    
   	rate: {
   		type: 'string'
   	}
